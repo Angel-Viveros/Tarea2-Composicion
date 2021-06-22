@@ -20,8 +20,6 @@ public class Computadora {
  private int marca;
  private int modelo;
 
-    public Computadora() {
-    } 
     /**
      * @param args the command line arguments
      */
@@ -38,31 +36,5 @@ public class Computadora {
         System.out.println("Mouse  " + r1.getMarca() + " modelo " + r1.getModelo() + " tipo " + r1.getTipo());
         System.out.println("Teclado " + i1.getMarca() + " modelo " + i1.getModelo()+ " numero de teclas " + i1.getNumeroDeTeclas());
         System.out.println("Cpu " + p1.getMarca() + " modelo " + p1.getModelo() + " Velocidad procesador " + p1.getVelocidadProcesador());
-        
     }
-
-    public int getMarca() {
-        return marca;
-    }
-
-    public void setMarca(int marca) {
-        this.marca = marca;
-    }
-
-    public int getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(int modelo) {
-        this.modelo = modelo;
-    }
-
-    @Override
-    public String toString() {
-        return "Computadora{" + "marca=" + marca + ", modelo=" + modelo + '}';
-    }
-    
-    
-    
-    
 }
