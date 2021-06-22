@@ -9,9 +9,6 @@ import ico.fes.computadora.Cpu;
 import ico.fes.computadora.Monitor;
 import ico.fes.computadora.Mouse;
 import ico.fes.computadora.Teclado;
-
-
-
 /**
  *
  * @author angel
@@ -19,7 +16,6 @@ import ico.fes.computadora.Teclado;
 public class Computadora {
  private int marca;
  private int modelo;
-
     /*
      * @param args the command line arguments
      */
@@ -36,5 +32,8 @@ public class Computadora {
         System.out.println("Mouse  " + r1.getMarca() + " modelo " + r1.getModelo() + " tipo " + r1.getTipo());
         System.out.println("Teclado " + i1.getMarca() + " modelo " + i1.getModelo()+ " numero de teclas " + i1.getNumeroDeTeclas());
         System.out.println("Cpu " + p1.getMarca() + " modelo " + p1.getModelo() + " Velocidad procesador " + p1.getVelocidadProcesador());
+        
+        
     }
+    
 }
