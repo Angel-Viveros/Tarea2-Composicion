@@ -34,6 +34,7 @@ public class Computadora {
         System.out.println("Cpu " + p1.getMarca() + " modelo " + p1.getModelo() + " Velocidad procesador " + p1.getVelocidadProcesador());
         
         
+        
     }
     
 }
